@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+}
+
+.lista-item{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.lista-link{
+    text-decoration: none;
+    color: white;
+}
+
+.lista-link:hover{
+    text-shadow: 2px 2px 1px white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.header{
+    background-color:  #263d2e;
+    color: white;
+}
+
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.title-1{
+    font-size: 40px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.img-100{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.title-2{
+    margin-left: 35px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding-left: 35px;
+    text-align: justify;
+}
+
+.secao-1{
+    background-color: #4F6F52;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.img-100-square{
+    width: 100%;
+    height: 400px;
+}
+
+.w-30{
+    width: 30%;
+    padding-top: 50px;
+    height: 50%;
+}
+
+.secao-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.footer{
+    background-color: black;
+    padding: 25px 500px;
+}
+
+.li{
+    display: flex;
+    color: white;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+   align-items: center;
+    justify-content: center;
+}
+
+.article1{
+    margin: 0 auto;
+    padding: 75px 75px;
+    text-align: justify;
+}
+
+.article2{
+    margin: 0 auto;
+    padding: 30px 75px;
+    text-align: justify;
+}
+
+.img-art{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 35px;
+    
+}
+
+.w-fig{
+    width: 89%; 
+    padding-left: 110px;
+}
+
+.secao-imagem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 50vh;
+}
+.secao-imagem2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+.secao-imagem3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-100-1{
+    width: 100% !important;
+}
